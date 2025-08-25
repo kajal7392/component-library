@@ -1,0 +1,33 @@
+/* Storybook-specific CSS fixes */
+.sb-show-main {
+  padding: 2rem !important;
+  background: linear-gradient(to bottom right, #f8fafc, #f1f5f9) !important;
+}
+
+.sb-show-main.dark {
+  background: linear-gradient(to bottom right, #0f172a, #1e293b) !important;
+}
+
+/* Ensure components don't shrink in Storybook */
+.storybook-container {
+  min-width: 300px;
+  max-width: 100%;
+}
+
+/* Fix for flex container issues in Storybook */
+.sb-main-padded {
+  display: block !important;
+}
+
+/* Force proper container behavior */
+.sb-main .innerZoomElementWrapper {
+  display: block !important;
+  width: 100% !important;
+}
+
+/* Component-specific fixes for Storybook */
+.component-wrapper {
+  min-width: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+}

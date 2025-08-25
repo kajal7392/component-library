@@ -1,46 +1,87 @@
-# Getting Started with Create React App
+# Frontend Assignment - InputField Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a **Storybook-based frontend assignment** that
+demonstrates the implementation of an **InputField UI component** using
+React, TypeScript, and TailwindCSS.
 
-## Available Scripts
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
 
-In the project directory, you can run:
+## 🚀 Tech Stack
 
-### `npm start`
+-   **React** (UI framework)
+-   **TypeScript** (type safety)
+-   **TailwindCSS** (utility-first styling)
+-   **Storybook** (UI development & documentation)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📂 Project Structure
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+    ├── src/
+    │   ├── components/
+    │   │   └── InputField/
+    │   │       ├── InputField.tsx       # InputField component
+    │   │       ├── InputField.stories.tsx # Storybook stories
+    │   │       └── InputField.test.tsx  # Unit tests (if included)
+    │   ├── styles/                       # Global styles & Tailwind config
+    │   └── App.tsx                       # Root application file
+    ├── .storybook/                       # Storybook configuration
+    ├── package.json                      # Dependencies & scripts
+    └── tailwind.config.js                # Tailwind configuration
 
-### `npm test`
+## ⚡ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   Clean **InputField component**
+-   Responsive design with TailwindCSS
+-   **Dark mode support**
+-   Accessible scrollbar with styled UI
+-   Footer text: `"Built with React, TypeScript, and TailwindCSS"`
 
-### `npm run build`
+## 🛠️ Installation & Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the repository and install dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+``` bash
+git clone <repo-url>
+cd <repo-folder>
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Run Storybook:
 
-### `npm run eject`
+``` bash
+npm run storybook
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Run the React App:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+``` bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Open http://localhost:3000 to view the demo application.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Open http://localhost:6006 to view component documentation.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎨 UI Enhancements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-   Custom **scrollbar styling** with hover effect
+-   Adjusted **text size & line-height** for better readability
+-   **Footer properly aligned** and always accessible across devices
+
+## 📌 Notes
+
+-   If the scrollbar does not reach the footer, ensure `min-h-screen`
+    and `flex flex-col` layouts are applied to the root container.
+-   This ensures content pushes the footer down correctly on all
+    devices.
+
+------------------------------------------------------------------------
+
+✅ **Final Footer Text:**\
+`Built with React, TypeScript, and TailwindCSS`
