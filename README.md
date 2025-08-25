@@ -63,10 +63,11 @@ Run the React App:
 npm start
 ```
 
-## Open http://localhost:3000 to view the demo application.
+# Live Demo
 
-## Open http://localhost:6006 to view component documentation.
+Open [this link](https://68ac2a236df1122d8b26167a--react-component-library-typescript.netlify.app/) to view the live Storybook demo of the React component library.
 
+---
 
 ## 🎨 UI Enhancements
 
