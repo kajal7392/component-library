@@ -76,10 +76,13 @@ Run the React App:
 ``` bash
 npm start
 ```
+# React Component Library - Live Demos
 
-# Live Demo
+- **Storybook Demo:** [Vercel Link](https://component-library-4t48utanh-kajals-projects-8880dd31.vercel.app/)  
+  _Use this to explore and test individual components with props and controls._
 
-Open [this link](https://68ac2a236df1122d8b26167a--react-component-library-typescript.netlify.app/) to view the live Storybook demo of the React component library.
+- **App Live Demo:** [Netlify Link](https://react-component-library-typescript.netlify.app/)  
+  _Use this to see how components behave when integrated into a full application._
 
 ---
 
